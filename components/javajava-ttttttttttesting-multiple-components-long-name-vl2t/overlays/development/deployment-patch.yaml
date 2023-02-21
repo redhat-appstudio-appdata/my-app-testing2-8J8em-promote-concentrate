@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: javajava-ttttttttttesting-multiple-components-long-name-vl2t
+  namespace: rsoaresd-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e6df6c0cc9952ae8c0d56324555c5c236dc9495d23483209f5186c91030c2f2b
+        name: my-java-springboot
+        resources: {}
+status: {}
