@@ -1,0 +1,15 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  annotations:
+    appstudio.openshift.io/application: my-app-testing2
+    appstudio.openshift.io/component: javajava-ttttttttttesting-multiple-components-long-name-vl2t
+    build.appstudio.openshift.io/build: "true"
+    build.appstudio.openshift.io/type: build
+    build.appstudio.openshift.io/version: "0.1"
+    pipelines.appstudio.openshift.io/type: build
+  creationTimestamp: null
+  name: javajava-ttttttttttesting-multiple-components-long-name-vl2t
+  namespace: rsoaresd-tenant
+spec:
+  url: https://github.com/rsoaresd/testing-multiple-components-long-name
